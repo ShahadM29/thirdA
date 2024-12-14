@@ -22,6 +22,7 @@ function displayUobData(results) {
         tableRow.innerHTML = `
             <td>${result.year}</td>
             <td>${result.semester}</td>
+            <td>${result.the_programs}</td>
             <td>${result.nationality}</td>
             <td>${result.colleges}</td>
             <td>${result.number_of_students}</td>
